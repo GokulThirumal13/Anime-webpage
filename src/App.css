@@ -1,0 +1,55 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #1f1f1f !important; /* Dark theme */
+    padding: 15px 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8d210 !important; /* Bright yellow color */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-brand:hover {
+    color: #ffd700 !important; /* Lighter yellow on hover */
+  }
+  
+  /* Navbar Links */
+  .navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #f8d210 !important; /* Yellow highlight on hover */
+  }
+  
+  /* Login & Sign Up Button */
+  .nav-item .btn-link {
+    color: #ff4f4f !important; /* Reddish login button */
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+    background: none;
+    padding: 8px 12px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-item .btn-link:hover {
+    color: #ff7878 !important; /* Lighter red on hover */
+    text-decoration: underline;
+  }
+  
+  /* Mobile Toggle Button */
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
